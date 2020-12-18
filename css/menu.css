@@ -1,0 +1,31 @@
+body {
+    overflow: hidden;
+    background: white;
+    background-image: url(../Images/gold-cutlery-set-black-background_1220-4099.webp);
+    background-repeat: no-repeat;
+    background-size: 106%;
+    
+}
+
+#book {
+    margin: 5% auto;
+    width: 1000px;
+    height: 500px;
+}
+
+#book .turn-page {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+#book div {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(223, 139, 43);
+}

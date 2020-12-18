@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Book </title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/book.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+
+
+</head>
+
+<style>
+    form {
+        margin-top: 40px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+</style>
+
+<body>
+
+
+    <h1>Reservation !</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+
+                <img src="./Images/Capture.PNG" style="height: 500px; width:500px; margin-top: 50px;">
+            </div>
+            <div class="col-xl-6">
+                <form>
+                    <div class="form-group ">
+                        <label for="exampleFormControlInput1">Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Phone</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="enter your Phone number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Date</label>
+                        <input type="date" class="form-control" id="exampleFormControlInput1"
+                            placeholder="date of reservation" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Time</label>
+                        <input type="time" class="form-control" id="exampleFormControlInput1"
+                            placeholder="time of reservation" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Number of people</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="how many peoble are comming" required>
+                    </div>
+                    <br>
+                    <input type="submit" class="btn btn-success btn-lg" name="" id="" value="Book Now">
+                </form>
+            </div>
+        </div>
+
+        <br>
+
+
+        <h2> => Please Rate Us !</h2>
+        <div class="wrapper">
+            <input type="radio" name="rate" id="star-1">
+            <input type="radio" name="rate" id="star-2">
+            <input type="radio" name="rate" id="star-3">
+            <input type="radio" name="rate" id="star-4">
+            <input type="radio" name="rate" id="star-5">
+            <div class="content">
+                <div class="outer">
+                    <div class="emojis">
+                        <li class="slideImg"><img src="Images/istockphoto-157024650-612x612.jpg" alt=""></li>
+                        <li><img src="Images/istockphoto-637743724-612x612.jpg" alt=""></li>
+                        <li><img src="Images/istockphoto-950152334-612x612.jpg" alt=""></li>
+                        <li><img src="Images/istockphoto-157030584-612x612.jpg" alt=""></li>
+                        <li><img src="Images/istockphoto-1000962832-612x612.jpg" alt=""></li>
+                    </div>
+                </div>
+                <div class="stars">
+                    <label for="star-1" class="star-1 fas fa-star"></label>
+                    <label for="star-2" class="star-2 fas fa-star"></label>
+                    <label for="star-3" class="star-3 fas fa-star"></label>
+                    <label for="star-4" class="star-4 fas fa-star"></label>
+                    <label for="star-5" class="star-5 fas fa-star"></label>
+                </div>
+            </div>
+            <div class="footer">
+                <span class="text"></span>
+                <span class="numb"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
